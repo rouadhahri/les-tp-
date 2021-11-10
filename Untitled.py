@@ -18,6 +18,11 @@ prod(5,6)
 
 # In[ ]:
 
+somme=lambda x,y,z: x+y+z
+print(somme(12,12,3))
+
+print(somme(0,0,0))
+
 
 
 
