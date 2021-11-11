@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 import matplotlib.pyplot as plt
@@ -14,14 +11,6 @@ plt.ylabel ("f(x)")
 plt.grid(True)
 plt.plot(T,f(T))
 
-
-# In[ ]:
-
-
-
-
-
-# In[2]:
 
 
 
@@ -41,7 +30,6 @@ def dicho(a,b,f,tol):
     return m
 
 
-# In[3]:
 
 
 f=lambda x: x**3+x**2-3*x-3
@@ -52,13 +40,11 @@ print(x3,x10,x20)
 #print(x3)
 
 
-# In[4]:
 
 
 print('f(x10)={},f(x20)={}'.format(f(x10),f(x20)))
 
 
-# In[5]:
 
 
 def dichow (a ,b,f,eps):
@@ -80,13 +66,11 @@ def dichow (a ,b,f,eps):
     return (g+d)/2,n
 
 
-# In[6]:
-
 
 dichow(-2,-1.5,f,0.0001)
 
 
-# In[ ]:
+
 
 
 
